@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>start_html</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="block">
+		<span class="badge">25</span>
+		<div class="training">
+		<div class="training__wrapper">
+			<div class="training__title">
+				Обучение по продажам
+			</div>
+			<div class="training__text">
+				Вы сделали <span class="number-sales">13</span> продаж и заработали:
+				<br>
+				<span class="summ-sales">$ 2 000</span>
+			</div>
+		</div>
+		
+		<div class="plan__progress">
+			<div class="plan__title">
+				Месячный план выполнен на
+			</div>
+
+			<div class="progress-bar">
+				<div class="progress" id="myProgress">
+					<div class="bar" id="myBar">
+						<div class="bar__label" id="label"><span>0</span></div>
+					</div>
+				</div>
+				<button id="btn" onclick="move()">Продолжить</button>
+				<div class="days">Осталось <span>8</span> дней</div>
+			</div>
+		</div>
+	</div>
+	</div>
+	
+	<script src="js/main.js"></script>
+</body>
+</html>

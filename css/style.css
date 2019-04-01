@@ -1,0 +1,120 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Arial', sans-serif;
+	font-weight: 400;
+	font-size: 12px;
+}
+
+.block{
+	top: 40%;
+	left: 40%;
+	position: absolute;
+	display: inline-block;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	padding: 5px;
+	border-radius: 3px;
+}
+
+.badge{
+	display: inline-block;
+	background: linear-gradient(to top,#279121, #9df487);
+	box-shadow: 0 0 3px rgba(0,0,0,0.5);
+	border: 1px solid #fff;
+	border-radius: 2px;
+	color: #fff;
+	padding: 3px 5px;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	z-index: 2;
+}
+
+.training{
+	padding: 11px;
+	border: 4px double #9ecbe8;
+	outline: 2px #9ecbe8;
+	outline-style: dotted;
+	position: relative;
+    
+}
+
+.training__title{
+	font-weight: 700;
+	font-size: 16px;
+	padding: 10px 0 10px 15px;
+}
+
+.training__text{
+	color: #808080;
+	padding-bottom: 8px;
+	padding-left: 15px;
+}
+
+.summ-sales{
+	color: #333;
+	padding-top: 3px;
+	display: inline-block;
+}
+
+.plan__progress{
+	border: 1px solid #9ecbe8;
+	border-radius: 3px;
+    background: linear-gradient(to top,#f0faff, #fff);
+}
+
+.plan__title{
+	font-weight: 700;
+	padding: 10px 15px;
+}
+
+.progress-bar{
+	padding: 10px 15px;
+}
+
+.progress{
+	position: relative;
+	width: 100%;
+	height: 15px;
+	border: 1px solid #9ecbe8;
+	background-color: #fff;
+}
+
+.bar{
+	position: absolute;
+	width: 0;
+	height: 100%;
+	background-color: #9ecbe8;
+}
+
+.bar__label{
+	text-align: center;
+	color: #1e4b69;
+	font-size: 12px;
+}
+
+.bar__label span{
+	padding-left: 30%;
+}
+
+button{
+	color: #fff;
+	font-size: 13px;
+	outline: none;
+	border: 1px solid #4055af;
+	border-radius: 3px;
+	padding: 6px 19px;
+	margin-top: 13px;
+	background: linear-gradient(to top,#4055af, #667cda);
+	cursor: pointer;
+}
+
+.days{
+	display: inline-block;
+	font-size: 11px;
+	color: #999;
+	padding-left: 7px;
+}
+
